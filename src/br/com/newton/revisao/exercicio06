@@ -1,0 +1,7 @@
+Na classe convite são criados os atributos e métodos para criar um convite, esses métodos vão desde métodos para formatar a data até um método para imprimi-la.
+
+A classe ConvidarEmail é filha da classe Convite, ela adiciona um atributo email para receber o endereço de Email e desenvolve os métodos necessários para mostra-lo da forma correta, na forma de um email, de uma forma diferente da classe convite.
+
+A classe ConvidarWhatsapp é filha da classe Convite, ela adiciona um atributo telefone para receber o número de telefone de uma pessoa e desenvolve os métodos necessários para mostra-lo da forma correta, e enviá-la na forma de uma mensagem do Whatsapp, de uma forma diferente da classe convite.
+
+A classe Main não compila pois ocorre um erro na linha onde se tenta criar um objeto da classe Convite, esse erro ocorre porque a classe convite é abstrata e não pode ser instaciada
